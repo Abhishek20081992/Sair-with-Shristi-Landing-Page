@@ -300,18 +300,15 @@
             <section className="py-16 px-4 md:py-24 bg-white">
               <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-900">Instagram Gallery: Daily Jaipur Magic</h2>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                  {/* Instagram Grid - Placeholders. Replace with actual embedded Instagram posts or images. */}
-                  <img src={getPlaceholderImage(300, 300, 'Jaipur Street Scene', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of Jaipur street scene" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Local Artisan', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of a local artisan in Jaipur" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Hidden Havelis', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of hidden havelis in Jaipur" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Chai Stop', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of a chai stop on a Jaipur tour" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Group Photo', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of a tour group with Shristi" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Cultural Interaction', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of a cultural interaction during a tour" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Jaipur Food', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of Jaipur street food" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
-                  <img src={getPlaceholderImage(300, 300, 'Sunrise View', '8B5CF6', 'FFFFFF')} alt="High engagement Instagram photo of a sunrise view in Jaipur" className="w-full h-auto object-cover rounded-lg shadow-md transform hover:scale-105 transition duration-300" />
+                {/* Placeholder for Instagram Widget */}
+                <div id="instagram-feed-widget" className="w-full max-w-4xl mx-auto bg-gray-100 p-6 rounded-lg shadow-inner text-gray-600 text-center flex items-center justify-center h-64">
+                    <p>
+                        Your Instagram feed widget will appear here.
+                        <br/>
+                        Please follow the instructions below to get your embed code.
+                    </p>
                 </div>
-                <a href="https://www.instagram.com/ms_weirdly_weird/" target="_blank" rel="noopener noreferrer" className="inline-block bg-pink-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-pink-700 transition duration-300 transform hover:scale-105">
+                <a href="https://www.instagram.com/ms_weirdly_weird/" target="_blank" rel="noopener noreferrer" className="inline-block bg-pink-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-pink-700 transition duration-300 transform hover:scale-105 mt-8">
                   Follow Me for Daily Jaipur Magic → @ms_weirdly_weird
                 </a>
               </div>
@@ -366,17 +363,3 @@
     </script>
   </body>
 </html>
-```
-
-**Action Required:**
-
-1.  **Go to your GitHub Repository:** Navigate to `https://github.com/Abhishek20081992/Sair-with-Shristi-Landing-Page`.
-2.  **Edit `public/index.html`:**
-    * Click on the `public` folder.
-    * Click on the `index.html` file.
-    * Click the **pencil icon** (edit button) to edit the file.
-3.  **Replace ALL content:** Delete everything currently in the file and paste the *entire* code block provided above into it.
-4.  **Commit Changes:** Scroll down, add a commit message (e.g., `Fix React script placement for rendering`), and click **"Commit changes"**.
-5.  **Trigger Deploy on Netlify:** Go back to your Netlify dashboard for this site, go to the "Deploys" tab, and click "Trigger deploy" -> "Deploy site" (or "Clear cache and deploy site").
-
-This should finally get your page rendering correctly. I deeply apologize for the back-and-forth on this. The single-file React setup with CDNs can be sensitive to script placeme
